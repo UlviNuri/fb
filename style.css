@@ -6,6 +6,7 @@
 
 .fb{
     position: relative;
+    
 }
 
 .fb1{
@@ -32,26 +33,47 @@ header{
     width: 100%;
     height: 800px;
     background-color: rgb(196, 195, 195); 
+    
 }
 
 .left{
     width: 500px;
-    height: 350px;
+    height: 450px;
     border: 1px solid red;
     margin: 150px 180px;
-   
+    background-color: #fff;
 }
 
+form{
+    margin-top: 10px;
+}
+
+
+
 p{
-    padding: 15px;
-    margin-left:15px;
+    margin-top: 10px;
     font-size:15px ;
 }
 
-.right{
-    width: 500px;
-    height: 450px;
-    border: 1px solid;
-    margin-left:850px;
-    margin-bottom: 850px; 
+h3{
+    
+    margin-top: 10px ;
+}
+
+.rg{
+    display: flex;
+    
+}
+
+button{
+    background-color: green;
+    padding:  5px 10px;
+    color: #fff;
+    margin: 15px;
+    width: 100px;
+    height: 35px;
+}
+
+.fns{
+    border-bottom: 1px solid;
 }
